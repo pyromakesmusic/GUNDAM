@@ -24,7 +24,7 @@ GLOBAL VARIABLES
 
 Here go the declarations of global variables.
 """
-
+mood = float
 
 
 """
