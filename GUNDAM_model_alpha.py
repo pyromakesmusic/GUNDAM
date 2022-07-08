@@ -17,6 +17,7 @@ import scipy
 import ast
 import datetime
 import pandas
+import tensorflow as tf
 
 
 """
