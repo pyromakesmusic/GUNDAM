@@ -37,6 +37,18 @@ Here go function definitions.
 
 
 
+"""
+MAIN FUNCTION CALLS
+"""
+
+athena = pyttsx3.init()
+voices = athena.getProperty('voices')
+athena.setProperty('voice', voices[1].id)
+athena.say("Platform initialized.")
+athena.runAndWait()
+
+
+
 
 """
 UNIT TESTS
